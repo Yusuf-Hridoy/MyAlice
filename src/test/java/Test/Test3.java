@@ -14,7 +14,7 @@ public class Test3 extends Driver {
 	@Test
 	public void VerifyModel() throws InterruptedException {
 		
-		// this is the test 1 mention in the pdf
+		// this is the test 3 mention in the pdf
 		
 getDriver().get("https://myalice-automation-test.netlify.app/");
 		

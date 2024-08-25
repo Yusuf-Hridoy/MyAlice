@@ -75,7 +75,7 @@ public class Test2 extends Driver {
 	public void SearchsevenDeadlySins() throws InterruptedException {
 		// this is the test 2 mention in the pdf
 		
-		// this one is to find seven deadly sins  and verify but it was not avaiable on the site so i verify the not fount message 
+		// this one is to find seven deadly sins  and verify but it was not avaiable on the site so i verify the not found message 
 		
 		
 		getDriver().get("https://myalice-automation-test.netlify.app/");
@@ -106,7 +106,7 @@ public class Test2 extends Driver {
 	@Test
 	public void verifyRandomSearch		() throws InterruptedException {
 		
-		// this one for the not fount page
+		// this one for the not found page
 		
 		
 		getDriver().get("https://myalice-automation-test.netlify.app/");

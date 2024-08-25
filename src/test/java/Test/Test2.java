@@ -13,7 +13,7 @@ public class Test2 extends Driver {
 	SearchDisplay search = new SearchDisplay();
 	@Test
 	public void SearchNaruto() throws InterruptedException {
-		// this is the test 1 mention in the pdf
+		// this is the test 2 mention in the pdf
 		
 		// this one is to find naruto and verify
 		
@@ -73,7 +73,7 @@ public class Test2 extends Driver {
 	
 	@Test
 	public void SearchsevenDeadlySins() throws InterruptedException {
-		// this is the test 1 mention in the pdf
+		// this is the test 2 mention in the pdf
 		
 		// this one is to find seven deadly sins  and verify but it was not avaiable on the site so i verify the not fount message 
 		
@@ -106,7 +106,7 @@ public class Test2 extends Driver {
 	@Test
 	public void verifyRandomSearch		() throws InterruptedException {
 		
-		// this one is to find seven deadly sins  and verify but it was not avaiable on the site so i verify the not fount message 
+		// this one for the not fount page
 		
 		
 		getDriver().get("https://myalice-automation-test.netlify.app/");
